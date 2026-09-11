@@ -1,0 +1,11 @@
+# Project place file
+/roblox-entity-system.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
+default.project.json
+selene.toml
+.gitignore
