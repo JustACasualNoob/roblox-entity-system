@@ -1,4 +1,4 @@
-# roblox-entity-system
+# Roblox Entity System
 A reusable entity system originally developed for a Roblox combat game.
 > This repository is a standalone extraction of an entity system originally built for a larger Roblox combat project. Project-specific dependencies and assets were removed for clarity.
 
