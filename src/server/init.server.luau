@@ -1,6 +1,6 @@
 local RunService = game:GetService("RunService")
 
-local Entity = require(script.Classes.Entity)
+local Entity = require(script.Entity)
 
 local ExampleData = {
 	Damage = 5,
@@ -28,7 +28,7 @@ local POS = {
 local entities = {} :: {[Model]: Entity.Entity}
 
 -- Spawns 10 entities randomly
-for i = 1, 10 do
+for _i = 1, 10 do
 	local model = ExampleModel:clone()
 	local pos = Vector3.new(math.random(POS.Min, POS.Max), 5, math.random(POS.Min, POS.Max))
 	entities[model] = Entity.new({ model = model, entityData = ExampleData, position = pos })
