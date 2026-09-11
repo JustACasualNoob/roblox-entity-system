@@ -15,7 +15,7 @@ The project needed a consistent way to create, track, update, and destroy gamepl
 - **Typed Luau** — entity data and runtime fields are explicitly typed.
 
 ## What I worked on
-I designed and implemented the architecture.
+I designed and implemented the entity architecture, state handling, and update flow.
 
 ## Example
 
